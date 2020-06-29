@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  obligation-extraction:
+    build: .
+    command: bash -c "jupyter notebook --ip 0.0.0.0 --port 9999 --allow-root"
+    container_name: obligation-extraction-experiments
+    volumes:
+      - .:/obligation-extraction-experiments
+    ports:
+      - "9999:9999"
