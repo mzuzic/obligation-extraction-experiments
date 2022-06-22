@@ -1,5 +1,5 @@
 nltk==3.4
-numpy==1.16.2
+numpy==1.22.0
 scikit-learn
 scipy==1.2.1
 wasabi==0.1.3
